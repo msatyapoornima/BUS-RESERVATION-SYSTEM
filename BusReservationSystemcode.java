@@ -90,7 +90,7 @@ public class BusReservationSystem
 		            if (current.seatNumber == seatNumber && !current.isBooked) {
 		                current.isBooked = true;
 
-		                scanner.nextLine(); // Clear buffer
+		                scanner.nextLine(); 
 		                System.out.print("Enter name: ");
 		                current.name = scanner.nextLine();  
 		                System.out.print("Enter age: ");
