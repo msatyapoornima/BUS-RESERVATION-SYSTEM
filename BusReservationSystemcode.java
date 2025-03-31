@@ -92,7 +92,7 @@ public class BusReservationSystem
 
 		                scanner.nextLine(); // Clear buffer
 		                System.out.print("Enter name: ");
-		                current.name = scanner.nextLine();  // Allow full name with spaces
+		                current.name = scanner.nextLine();  
 		                System.out.print("Enter age: ");
 		                current.age = scanner.nextInt();
 		                System.out.print("Enter gender: ");
@@ -184,7 +184,7 @@ public class BusReservationSystem
 		            System.out.printf("  %02d(%d) ", current.seatNumber, current.isBooked ? 1 : 0);
 		            count++;
 		            if (count % 4 == 0) {
-		                System.out.println();  // Move to the next row after every 4 seats
+		                System.out.println();  
 		            }
 		            current = current.next;
 		        }
